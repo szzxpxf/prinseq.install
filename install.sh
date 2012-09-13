@@ -17,14 +17,7 @@ curl -L http://cpanmin.us | perl - App::cpanminus
 yum install -y cairo cairo-devel perl-Pod-*
 
 # install module::build
-cpanm Module::Build
-# MatrixReal
-cpanm Math::MatrixReal
-# rest of modules
-cpanm Data::Dumper::Names Time::HiRes
-cpanm CPAN::Meta ExtUtils::ParseXS
-cpanm Getopt::Long File::Temp Digest::MD5 Version::Requirements 
-cpanm Fcntl Cwd JSON Cairo Statistics::PCA MIME::Base64
+/usr/local/bin/cpanm Module::Build Math::MatrixReal Data::Dumper::Names Time::HiRes cpanm CPAN::Meta ExtUtils::ParseXS Getopt::Long File::Temp Digest::MD5 Version::Requirements Fcntl Cwd JSON Cairo Statistics::PCA MIME::Base64
 # download prinseq, install
 wget http://resources.ohnosequences.com/prinseq/latest/prinseq-lite-0.19.4.tar.gz
 tar -xzf prinseq-lite-0.19.4.tar.gz
