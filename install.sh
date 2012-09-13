@@ -10,11 +10,11 @@ cd /opt/prinseq
 BASE_FOLDER=/opt/prinseq
 
 # install cpanm
-yum install -y make gcc perl
+yum install -y make gcc perl perl-ExtUtils-*
 curl -L http://cpanmin.us | perl - App::cpanminus
 
 # prinseq native deps: cairo libs
-yum install -y cairo cairo-devel perl-Pod-* perl-ExtUtils-*
+yum install -y cairo cairo-devel perl-Pod-*
 
 # install module::build
 cpanm Module::Build
