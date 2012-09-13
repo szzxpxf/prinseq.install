@@ -19,7 +19,7 @@ yum install -y cairo cairo-devel perl-Pod-*
 # install module::build
 /usr/local/bin/cpanm Module::Build Math::MatrixReal Data::Dumper::Names Time::HiRes cpanm CPAN::Meta ExtUtils::ParseXS Getopt::Long File::Temp Digest::MD5 Version::Requirements Fcntl Cwd JSON Cairo Statistics::PCA MIME::Base64
 # download prinseq, install
-wget http://resources.ohnosequences.com/prinseq/latest/prinseq-lite-0.19.4.tar.gz
+wget http://resources.ohnosequences.com/prinseq/prinseq-lite-0.19.4.tar.gz
 tar -xzf prinseq-lite-0.19.4.tar.gz
 rm prinseq-lite-0.19.4.tar.gz
 chmod u+x prinseq-lite-0.19.4/*.pl
