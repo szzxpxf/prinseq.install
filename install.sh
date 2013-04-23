@@ -20,7 +20,7 @@ yum install -y cairo cairo-devel perl-Pod-*
 /usr/local/bin/cpanm http://search.cpan.org/CPAN/authors/id/L/LE/LETO/Math-MatrixReal-2.05.tar.gz
 /usr/local/bin/cpanm Module::Build Data::Dumper::Names Time::HiRes CPAN::Meta ExtUtils::ParseXS Getopt::Long File::Temp Digest::MD5 Version::Requirements Fcntl Cwd JSON Statistics::PCA MIME::Base64
 # install cairo without tests -> workaround
-cpanm -n Cairo
+/usr/local/bin/cpanm -n Cairo
 # download prinseq, install
 wget http://resources.ohnosequences.com/prinseq/prinseq-lite-0.20.1.tar.gz
 tar -xzf prinseq-lite-0.20.1.tar.gz
