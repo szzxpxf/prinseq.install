@@ -22,9 +22,9 @@ yum install -y cairo cairo-devel perl-Pod-*
 # install cairo without tests -> workaround
 /usr/local/bin/cpanm -n Cairo
 # download prinseq, install
-wget http://resources.ohnosequences.com/prinseq/prinseq-lite-0.20.1.tar.gz
-tar -xzf prinseq-lite-0.20.1.tar.gz
-rm prinseq-lite-0.20.1.tar.gz
-chmod +x prinseq-lite-0.20.1/*.pl
+wget http://resources.ohnosequences.com/prinseq/prinseq-lite-0.20.3.tar.gz
+tar -xzf prinseq-lite-0.20.3.tar.gz
+rm prinseq-lite-0.20.3.tar.gz
+chmod +x prinseq-lite-0.20.3/*.pl
 # links
-ln -sf $BASE_FOLDER/prinseq-lite-0.20.1/*.pl /usr/bin/
+ln -sf $BASE_FOLDER/prinseq-lite-0.20.3/*.pl /usr/bin/
