@@ -67,9 +67,9 @@ cpanm http://search.cpan.org/CPAN/authors/id/D/DC/DCONWAY/Contextual-Return-v0.2
 cpanm Statistics::PCA@0.0.1
 
 # download prinseq, install
-wget http://resources.ohnosequences.com/prinseq/prinseq-lite-0.20.3.tar.gz
-tar -xzf prinseq-lite-0.20.3.tar.gz
-rm prinseq-lite-0.20.3.tar.gz
-chmod +x prinseq-lite-0.20.3/*.pl
+wget http://resources.ohnosequences.com/prinseq/prinseq-lite-0.20.4.tar.gz
+tar -xzf prinseq-lite-0.20.4.tar.gz
+rm prinseq-lite-0.20.4.tar.gz
+chmod +x prinseq-lite-0.20.4/*.pl
 # links
-ln -sf $BASE_FOLDER/prinseq-lite-0.20.3/*.pl /usr/bin/
+ln -sf $BASE_FOLDER/prinseq-lite-0.20.4/*.pl /usr/bin/
